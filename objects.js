@@ -4,5 +4,5 @@ var playlist = {'Taylor Swift': 'you belongs to me',
                };
 
 var updatePaylist = (playlist, artistName, songTitle) => {
-    return paylist = Object.assign(playlist, artistName:songTitle);
+    return paylist = Object.assign({}, playlist, {[artistName]: songTitle});
 };
