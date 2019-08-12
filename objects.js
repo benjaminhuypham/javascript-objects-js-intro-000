@@ -3,6 +3,6 @@ var playlist = {'Taylor Swift': 'you belongs to me',
                 'Katy Perry': 'firework'
                };
 
-var updatePaylist = (playlist, artistName, songTitle) => {
+var updatePlaylist = (playlist, artistName, songTitle) => {
     return paylist = Object.assign({}, playlist, {[artistName]: songTitle});
 };
