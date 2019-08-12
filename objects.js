@@ -7,4 +7,4 @@ var updatePaylist = (playlist, artistName, songTitle) => {
     return paylist = Object.assign(playlist, artistName:songTitle);
 };
 
-updatePaylist();
+
